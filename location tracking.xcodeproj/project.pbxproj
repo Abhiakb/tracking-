@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54209155DA583ACBD386303C /* Pods_location_tracking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29594F3C7A01FC2E2968D54 /* Pods_location_tracking.framework */; };
+		C541A38E2C65C867005FFC48 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C541A38D2C65C867005FFC48 /* LocationManager.swift */; };
+		C541A3902C65C885005FFC48 /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C541A38F2C65C885005FFC48 /* GoogleMapView.swift */; };
+		C541A3932C65CC84005FFC48 /* loginview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C541A3922C65CC84005FFC48 /* loginview.swift */; };
+		C541A3952C65DABD005FFC48 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C541A3942C65DABD005FFC48 /* GoogleService-Info.plist */; };
+		C548F1382C65DC2F008840AC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C548F1372C65DC2F008840AC /* FirebaseAuth */; };
+		C548F13A2C65DD24008840AC /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C548F1392C65DD24008840AC /* FirebaseDatabase */; };
+		C548F13C2C65E0A2008840AC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C548F13B2C65E0A2008840AC /* FirebaseFirestore */; };
+		C548F13E2C65E433008840AC /* mapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C548F13D2C65E433008840AC /* mapview.swift */; };
+		C5A2E0242C66165A00DC7A80 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C5A2E0232C66165A00DC7A80 /* FirebaseStorage */; };
+		C5C46EB92C65C0C300C28EC9 /* location_trackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C46EB82C65C0C300C28EC9 /* location_trackingApp.swift */; };
+		C5C46EBB2C65C0C300C28EC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C46EBA2C65C0C300C28EC9 /* ContentView.swift */; };
+		C5C46EBD2C65C0C400C28EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C46EBC2C65C0C400C28EC9 /* Assets.xcassets */; };
+		C5C46EC02C65C0C400C28EC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C46EBF2C65C0C400C28EC9 /* Preview Assets.xcassets */; };
+		C5C46EC22C65C0C400C28EC9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C46EC12C65C0C400C28EC9 /* Persistence.swift */; };
+		C5C46EC52C65C0C400C28EC9 /* location_tracking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5C46EC32C65C0C400C28EC9 /* location_tracking.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E5F6D4D90AE12C4D14AFDCC /* Pods-location tracking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-location tracking.debug.xcconfig"; path = "Target Support Files/Pods-location tracking/Pods-location tracking.debug.xcconfig"; sourceTree = "<group>"; };
+		A29594F3C7A01FC2E2968D54 /* Pods_location_tracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_location_tracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18148136FBD8292AAA49E2F /* Pods-location tracking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-location tracking.release.xcconfig"; path = "Target Support Files/Pods-location tracking/Pods-location tracking.release.xcconfig"; sourceTree = "<group>"; };
+		C541A38D2C65C867005FFC48 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C541A38F2C65C885005FFC48 /* GoogleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
+		C541A3912C65C9D6005FFC48 /* location-tracking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "location-tracking-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C541A3922C65CC84005FFC48 /* loginview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginview.swift; sourceTree = "<group>"; };
+		C541A3942C65DABD005FFC48 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C548F13D2C65E433008840AC /* mapview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapview.swift; sourceTree = "<group>"; };
+		C5C46EB52C65C0C300C28EC9 /* location tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "location tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C46EB82C65C0C300C28EC9 /* location_trackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = location_trackingApp.swift; sourceTree = "<group>"; };
+		C5C46EBA2C65C0C300C28EC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C5C46EBC2C65C0C400C28EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5C46EBF2C65C0C400C28EC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5C46EC12C65C0C400C28EC9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C5C46EC42C65C0C400C28EC9 /* location_tracking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = location_tracking.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5C46EB22C65C0C300C28EC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C548F13A2C65DD24008840AC /* FirebaseDatabase in Frameworks */,
+				C548F13C2C65E0A2008840AC /* FirebaseFirestore in Frameworks */,
+				54209155DA583ACBD386303C /* Pods_location_tracking.framework in Frameworks */,
+				C5A2E0242C66165A00DC7A80 /* FirebaseStorage in Frameworks */,
+				C548F1382C65DC2F008840AC /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		818EEC7C4E8E784A98D51F9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A29594F3C7A01FC2E2968D54 /* Pods_location_tracking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A3547918D76D59053DA20EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E5F6D4D90AE12C4D14AFDCC /* Pods-location tracking.debug.xcconfig */,
+				C18148136FBD8292AAA49E2F /* Pods-location tracking.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5C46EAC2C65C0C300C28EC9 = {
+			isa = PBXGroup;
+			children = (
+				C5C46EB72C65C0C300C28EC9 /* location tracking */,
+				C5C46EB62C65C0C300C28EC9 /* Products */,
+				9A3547918D76D59053DA20EE /* Pods */,
+				818EEC7C4E8E784A98D51F9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5C46EB62C65C0C300C28EC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5C46EB52C65C0C300C28EC9 /* location tracking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5C46EB72C65C0C300C28EC9 /* location tracking */ = {
+			isa = PBXGroup;
+			children = (
+				C541A3912C65C9D6005FFC48 /* location-tracking-Info.plist */,
+				C5C46EB82C65C0C300C28EC9 /* location_trackingApp.swift */,
+				C5C46EBA2C65C0C300C28EC9 /* ContentView.swift */,
+				C541A3922C65CC84005FFC48 /* loginview.swift */,
+				C541A38D2C65C867005FFC48 /* LocationManager.swift */,
+				C548F13D2C65E433008840AC /* mapview.swift */,
+				C541A3942C65DABD005FFC48 /* GoogleService-Info.plist */,
+				C541A38F2C65C885005FFC48 /* GoogleMapView.swift */,
+				C5C46EBC2C65C0C400C28EC9 /* Assets.xcassets */,
+				C5C46EC12C65C0C400C28EC9 /* Persistence.swift */,
+				C5C46EC32C65C0C400C28EC9 /* location_tracking.xcdatamodeld */,
+				C5C46EBE2C65C0C400C28EC9 /* Preview Content */,
+			);
+			path = "location tracking";
+			sourceTree = "<group>";
+		};
+		C5C46EBE2C65C0C400C28EC9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C5C46EBF2C65C0C400C28EC9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5C46EB42C65C0C300C28EC9 /* location tracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5C46EC82C65C0C400C28EC9 /* Build configuration list for PBXNativeTarget "location tracking" */;
+			buildPhases = (
+				C937E39F293C98F617F79662 /* [CP] Check Pods Manifest.lock */,
+				C5C46EB12C65C0C300C28EC9 /* Sources */,
+				C5C46EB22C65C0C300C28EC9 /* Frameworks */,
+				C5C46EB32C65C0C300C28EC9 /* Resources */,
+				2AC4D8986D1098D10196B7ED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "location tracking";
+			packageProductDependencies = (
+				C548F1372C65DC2F008840AC /* FirebaseAuth */,
+				C548F1392C65DD24008840AC /* FirebaseDatabase */,
+				C548F13B2C65E0A2008840AC /* FirebaseFirestore */,
+				C5A2E0232C66165A00DC7A80 /* FirebaseStorage */,
+			);
+			productName = "location tracking";
+			productReference = C5C46EB52C65C0C300C28EC9 /* location tracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5C46EAD2C65C0C300C28EC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C5C46EB42C65C0C300C28EC9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C5C46EB02C65C0C300C28EC9 /* Build configuration list for PBXProject "location tracking" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5C46EAC2C65C0C300C28EC9;
+			packageReferences = (
+				C541A3962C65DBD6005FFC48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = C5C46EB62C65C0C300C28EC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5C46EB42C65C0C300C28EC9 /* location tracking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5C46EB32C65C0C300C28EC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C46EC02C65C0C400C28EC9 /* Preview Assets.xcassets in Resources */,
+				C5C46EBD2C65C0C400C28EC9 /* Assets.xcassets in Resources */,
+				C541A3952C65DABD005FFC48 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AC4D8986D1098D10196B7ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-location tracking/Pods-location tracking-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-location tracking/Pods-location tracking-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-location tracking/Pods-location tracking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C937E39F293C98F617F79662 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-location tracking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5C46EB12C65C0C300C28EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C541A3902C65C885005FFC48 /* GoogleMapView.swift in Sources */,
+				C541A3932C65CC84005FFC48 /* loginview.swift in Sources */,
+				C5C46EC22C65C0C400C28EC9 /* Persistence.swift in Sources */,
+				C5C46EC52C65C0C400C28EC9 /* location_tracking.xcdatamodeld in Sources */,
+				C541A38E2C65C867005FFC48 /* LocationManager.swift in Sources */,
+				C548F13E2C65E433008840AC /* mapview.swift in Sources */,
+				C5C46EBB2C65C0C300C28EC9 /* ContentView.swift in Sources */,
+				C5C46EB92C65C0C300C28EC9 /* location_trackingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C5C46EC62C65C0C400C28EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5C46EC72C65C0C400C28EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5C46EC92C65C0C400C28EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E5F6D4D90AE12C4D14AFDCC /* Pods-location tracking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"location tracking/Preview Content\"";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "location-tracking-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to track delivery.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show your position on the map.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "akhil.location-tracking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5C46ECA2C65C0C400C28EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C18148136FBD8292AAA49E2F /* Pods-location tracking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"location tracking/Preview Content\"";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "location-tracking-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to track delivery.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show your position on the map.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "akhil.location-tracking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5C46EB02C65C0C300C28EC9 /* Build configuration list for PBXProject "location tracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C46EC62C65C0C400C28EC9 /* Debug */,
+				C5C46EC72C65C0C400C28EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5C46EC82C65C0C400C28EC9 /* Build configuration list for PBXNativeTarget "location tracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C46EC92C65C0C400C28EC9 /* Debug */,
+				C5C46ECA2C65C0C400C28EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C541A3962C65DBD6005FFC48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C548F1372C65DC2F008840AC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C541A3962C65DBD6005FFC48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C548F1392C65DD24008840AC /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C541A3962C65DBD6005FFC48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C548F13B2C65E0A2008840AC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C541A3962C65DBD6005FFC48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C5A2E0232C66165A00DC7A80 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C541A3962C65DBD6005FFC48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C5C46EC32C65C0C400C28EC9 /* location_tracking.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C5C46EC42C65C0C400C28EC9 /* location_tracking.xcdatamodel */,
+			);
+			currentVersion = C5C46EC42C65C0C400C28EC9 /* location_tracking.xcdatamodel */;
+			path = location_tracking.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C5C46EAD2C65C0C300C28EC9 /* Project object */;
+}
